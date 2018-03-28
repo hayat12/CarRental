@@ -1,0 +1,122 @@
+<div class="container my-3">
+	<div class="home-body">
+		<div class="row">
+			<div class="col-md-8 col-lg-6 offset-md-3 mt-5">
+				<div class="card card-search">
+					<div class="card-header text-center">
+						<h4>Search</h4>
+					</div>
+					<div class="card-body">
+						<form>
+							<div class="row">
+								<div class="col-4">
+									<div class="form-group">
+										<label for="exampleInputEmail1">Search Type</label>
+										<select class="form-control" name="" id="">
+											<option value="car">Select</option>
+											<option value="car">Search By Car </option>
+											<option value="car">Search By Location </option>
+										</select>
+									</div>
+								</div>
+								<div class="col-8">
+									<div class="form-group">
+										<label for="exampleInputEmail1">Search </label>
+										<div class="example-block">
+											<div class="example-block__item">
+													<!-- formControlName="CarModel"   -->
+												<ngx-select [items]="carsList" placeholder=" Search"></ngx-select>
+											</div>
+										</div>
+										<!-- <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Search ..."> -->
+										<!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="exampleInputPassword1">From</label>
+										<input type="date" class="form-control" id="exampleInputPassword1" placeholder="From">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="exampleInputPassword1">To</label>
+										<input type="date" class="form-control" id="exampleInputPassword1" placeholder="To">
+									</div>
+								</div>
+							</div>
+							<button type="button" (click)="SearchCar()" class="btn btn-block btn-primary">Search</button>
+						</form>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="card">
+		<div class="card-body">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<i class="fa fa-search"></i>Search
+						<i class="fa fa-angle-right mx-2"></i>
+					</div>
+					<div class="col-5">
+						<i class="fa fa-credit-card"></i> Booking
+						<i class="fa fa-angle-right mx-2"></i>
+					</div>
+					<div class="col">
+						<i class="fa fa-key"></i> Pick Up
+						<i class="fa fa-angle-right mx-2"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-4 my-sm-2 my-0">
+			<div class="card">
+				<img class="card-img-top" src="https://dru-cdn.zipcar.com/sites/default/files/big-car-aug16.png" alt="Card image cap">
+				<div class="card-body">
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4 my-sm-2 my-0">
+			<div class="card">
+				<img class="card-img-top" src="https://dru-cdn.zipcar.com/sites/default/files/big-car-aug16.png" alt="Card image cap">
+				<div class="card-body">
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4 my-sm-2 my-0">
+			<div class="card">
+				<img class="card-img-top" src="https://dru-cdn.zipcar.com/sites/default/files/big-car-aug16.png" alt="Card image cap">
+				<div class="card-body">
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4 my-sm-2 my-0">
+			<div class="card">
+				<img class="card-img-top" src="https://dru-cdn.zipcar.com/sites/default/files/big-car-aug16.png" alt="Card image cap">
+				<div class="card-body">
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4 my-sm-2 my-0">
+			<div class="card">
+				<img class="card-img-top" src="https://dru-cdn.zipcar.com/sites/default/files/big-car-aug16.png" alt="Card image cap">
+				<div class="card-body">
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,65 @@
+<div class="mx-3">
+    <div class="row my-3">
+        <div class="col-md-3">
+            <div class="card">
+                <div class="text-center rounded-circle">
+                    <!-- <img class="card-img-top" style="width: 14rem; height: 14rem; " alt="Card image cap"> -->
+                    <img src="http://www.trbimg.com/img-59ea6d3d/turbine/ct-prosecutors-18-year-old-beat-fatally-shot-man-for-bag-of-cannabis-20171020" class="img-fluid img-profile mh-70"
+                        alt="Responsive image">
+                </div>
+                <div class="card-body px-0 pb-0">
+                    <div id="accordion">
+                        <div class="card-header" data-toggle="collapse" data-target="#collapseOne" id="headingOne">
+                            Profile <i class="fa fa-user ml-2"></i>
+                        </div>
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body px-0 py-0">
+                                <!-- Messages -->
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item" (click)="NextPage()">Profile</li>
+                                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                                    <li class="list-group-item">Morbi leo risus</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-header" data-toggle="collapse" data-target="#collapseTwo" id="headingTwo">
+                            Change Password <i class="fa fa-key ml-2"></i>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body px-0 py-0">
+                                <!-- Messages -->
+                                <ul class="list-group list-group-flush">
+                                    <li (click)="ChangePassword()" class="list-group-item">Change Password</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-header" data-toggle="collapse" data-target="#collapseThree" id="headingThree">
+                            Basket <i class="fa fa-shopping-basket ml-2"></i>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body px-0 py-0">
+                                <!-- Messages -->
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Booking</li>
+                                    <li class="list-group-item">Booking History </li>
+                                    <li class="list-group-item">debits </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div (click)="LogOut()" class="card-header" data-toggle="collapse" data-target="#collapseFour" id="headingThree">
+                                 Log Out <i class="fa fa-sign-out ml-2"></i> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9 mt-3 mt-md-0">
+            <div class="card">
+                <div class="card-body">
+                    <router-outlet></router-outlet>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

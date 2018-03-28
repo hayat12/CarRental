@@ -1,0 +1,73 @@
+<div class="container mt-3">
+	<div class="row">
+		<div class="col-md-8">
+			<div class="card search-car-image">
+				<carousel>
+					<slide>
+						<img src="http://www.pngpix.com/wp-content/uploads/2016/06/PNGPIX-COM-Ford-Mustang-Red-Car-Back-Side-PNG-Image.png" alt="First slide"
+						 style="display: block; width: 100%;">
+						<div class="carousel-caption d-none d-md-block text-primary">
+							<h3>First slide label</h3>
+							<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+						</div>
+					</slide>
+					<slide>
+						<img src="https://auto.ndtvimg.com/car-images/colors/audi/a3/audi-a3-scuba-blue-metallic.png?v=1" alt="Second slide"
+						 style="display: block; width: 100%;">
+						<div class="carousel-caption d-none d-md-block text-primary">
+							<h3>Second slide label</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</div>
+					</slide>
+					<slide>
+						<img src="https://www.autotrader.co.uk/images/at3/sell/landing-pages/hero-car.png" alt="Third slide"
+						 style="display: block; width: 100%;">
+						<div class="carousel-caption d-none d-md-block text-primary">
+							<h3>Third slide label</h3>
+							<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur. hello</p>
+						</div>
+					</slide>
+				</carousel>
+				
+				<div class="card-body ">
+					Car Information ...
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4 my-3 my-lg-0">
+			<div class="card py-3">
+				<span class="text-center">Car Name </span>
+				<div class="card-body">
+					<div class="row">
+						<div class="col-sm-12">
+							<label>Quantity</label>
+							<input type="number" class="form-control" placeholder="Quantity" min="0">
+						</div>
+					</div>
+					<div class="row mt-1">
+						<div class="col-md-12">
+							<label>From</label>
+							<input type="date" class="form-control">
+						</div>
+						<div class="col-md-12">
+							<label>To</label>
+							<input type="date" class="form-control">
+						</div>
+					</div>
+					<div class="row mt-1">
+						<div class="col-md-12">
+							<label>Note.</label>
+							<textarea class="form-control" placeholder="Please Note down here your message"></textarea>
+						</div>
+					</div>
+					<button class="btn btn-danger my-3 btn-block" (click)="BookNow()"> Book Now </button>
+
+					<div class="row mt-1">
+							<div class="col-md-12">
+									<a (click)="BookNewCars()"> Search new cars</a>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>

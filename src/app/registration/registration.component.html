@@ -1,0 +1,133 @@
+<div class="container my-3">
+	<form>
+		<div class="row">
+			<div class="col-md-8">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="form-group">
+							<label for="fname">Full Name </label>
+							<input type="text" class="form-control" id="fname" aria-describedby="emailHelp" placeholder=" Full Name">
+							<!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="form-group">
+							<label for="exampleInputEmail1">Email address</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+							<!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="form-group">
+							<label for="ContactNo">Contact No</label>
+							<input type="number" class="form-control" id="ContactNo" aria-describedby="emailHelp" placeholder="+60 1XX XXX XXX XXX">
+							<!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="form-group">
+							<label for="Nationality">Nationality / Region </label>
+							<ngx-select [items]="carsList" id="Nationality" placeholder=" Select "></ngx-select>
+							<!-- <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nationality / Region"> -->
+							<!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+						</div>
+					</div>
+					<div class="col-12 text-center mb-5">
+						<strong>Rental Info</strong>
+						<div class="myline"></div>
+					</div>
+
+					<div class="col-md-12">
+						<div class="form-group">
+							<label for="pickUp">Pick-up Location </label>
+							<input type="email" class="form-control" id="pickUp" aria-describedby="emailHelp" placeholder="Pick-up Location">
+							<!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+						</div>
+					</div>
+
+					<div class="col-md-12">
+						<div class="form-group">
+							<label for="pickUpAddress">Pick-up Location Address </label>
+							<input type="email" class="form-control" id="pickUpAddress" aria-describedby="emailHelp" placeholder="Pick-up Location Address">
+							<!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="form-group">
+							<label for="ReturnLocation">Return Location </label>
+							<input type="email" class="form-control" id="ReturnLocation" aria-describedby="emailHelp" placeholder="Return Location ">
+							<!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="form-group">
+							<label for="ReturnLocationAddress">Return Location Address</label>
+							<input type="email" class="form-control" id="ReturnLocationAddress" aria-describedby="emailHelp" placeholder="Return Location ">
+							<!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="form-group">
+							<label for="Purpose">Rent Purpose </label>
+							<div class="form-group">
+								<div class="custom-control custom-radio custom-control-inline">
+									<input type="radio" id="customRadioInline1" name="Purpose" value="Leisure" class="custom-control-input">
+									<label class="custom-control-label" for="customRadioInline1">Leisure</label>
+								</div>
+								<div class="custom-control custom-radio custom-control-inline">
+									<input type="radio" id="customRadioInline2" name="Purpose" value="Business" class="custom-control-input">
+									<label class="custom-control-label" for="customRadioInline2">Business</label>
+								</div>
+								<div class="custom-control custom-radio custom-control-inline">
+									<input type="radio" id="customRadioInline3" name="Purpose" value="Others" class="custom-control-input">
+									<label class="custom-control-label" for="customRadioInline3">Others</label>
+								</div>
+							</div>
+							<!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="form-group">
+							<label for="Remarks"> Remarks </label>
+							<textarea class="form-control" id="Remarks" aria-describedby="emailHelp" placeholder="Remarks"></textarea>
+							<!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 mt-4">
+				<div class="card mt-2">
+					<div class="text-center">
+						<img class="card-img-top" src="https://www.enterprise.co.uk/content/dam/global-vehicle-images/cars/VAUX_INSI_2014.png" alt="Card image cap">
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">Card title</h5>
+						<p class="card-text">the bulk of the card's content. he bulk of the card's contenthe bulk of the card's contenthe bulk of the card's content</p>
+					</div>
+				</div>
+				<div class="card mt-2">
+					<div class="card-body">
+						<h5 class="card-title">Card title</h5>
+						<p class="card-text">the bulk of the card's content. he bulk of the card's contenthe bulk of the card's contenthe bulk of the card's content</p>
+					</div>
+				</div>
+				<div class="card mt-2">
+					<div class="card-body">
+						<h5 class="card-title">Card title</h5>
+						<p class="card-text">the bulk of the card's content. he bulk of the card's contenthe bulk of the card's contenthe bulk of the card's content</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-4">
+					<button (click)="RegisterNow()" class="btn btn-outline-danger btn-block">Submit</button>
+			</div>
+		</div>
+		
+	</form>
+
+
+	<!-- <div class="form-check">
+					<input type="checkbox" class="form-check-input" id="exampleCheck1">
+					<label class="form-check-label" for="exampleCheck1">Check me out</label>
+				</div> -->
+</div>

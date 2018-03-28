@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    position: relative;
+    height: 100px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(165, 23, 23, 0);
+    color: white;
+ }
+ .search-car-image img{
+     max-height: 350px;
+     background-color: rgba(182, 244, 255, 0.479);
+ }
+ .fa{
+     color: rgb(33, 145, 250);
+ }
+
+.fa{
+    font-size: 25px;
+}
+@media only screen and (max-width: 767px) {
+    .fa{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .fa{
+        font-size: 15px;
+    }
+}

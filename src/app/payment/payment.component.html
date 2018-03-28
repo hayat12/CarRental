@@ -1,0 +1,60 @@
+<div class="card-header text-center">
+	Invoice Payment
+</div>
+<div class="cord-body px-3 py-3">
+	<div class="py-3 px-3 mb-3 bg-dark text-white rounded">
+			description ...
+	</div>
+	<div class="row">
+		<div class="col-6">Credit Card Number</div>
+		<div class="col-6 text-right">
+			<i class="fa fa-cc-visa"></i>
+			<i class="fa fa-cc-amex"></i>
+			<i class="fa fa-cc-mastercard"></i>
+			<i class="fa fa-cc-paypal"></i>
+		</div>
+		<div class="col-12 text-left">
+			<input type="number" name="" id="CreditCardNumber" class="form-control" min="0" placeholder="Credit Card Number">
+		</div>
+	</div>
+	<div class="row my-3">
+		<div class="col-12">
+				<i class="fa fa-calendar mr-2"></i> <label for="ExpirationDate"> Expiration Date </label>
+		</div>
+
+		<div class="col-md-6">
+			<div class="form-group">
+				<input type="date" class="form-control" id="ExpirationDate" aria-describedby="emailHelp" placeholder="Expiration Date ">
+				<!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="form-group">
+				<input type="time" class="form-control" id="ExpirationDate" aria-describedby="emailHelp" placeholder="Expiration time">
+				<!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<div class="form-group">
+					<i class="fa fa-lock mr-2"></i> <label for="SecurityCode">Security Code </label>
+				<input type="number" min="0" class="form-control" id="SecurityCode" aria-describedby="emailHelp" placeholder="Security Code">
+				<!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="form-group">
+					<i class="fa fa-money mr-2"></i> <label for="Amount">Amount</label>
+				<input type="number" min="0" minlength="6" class="form-control" id="Amount" aria-describedby="emailHelp" placeholder="Amount">
+				<!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-6 offset-sm-0 offset-md-6 mt-3 mt-md-0">
+			<button class="btn btn-primary btn-block">Submit</button>
+		</div>
+	</div>
+</div>

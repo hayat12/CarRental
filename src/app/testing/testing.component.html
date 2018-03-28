@@ -1,0 +1,19 @@
+<div class="text-center">
+	<pre><strong>Domain Model</strong></pre>
+	<div class="card"></div>
+</div>
+<div *ngFor="let joke of jokes">
+	<div class="row mt-3">
+		<div class="col-sm-8">
+			this is {{ joke.punchline }} please dont take it seriouse
+		</div>
+		<div class="col-sm-4">
+			<button class="btn btn-outline-danger btn-block" (click)="toggle(joke)">Toggle</button>
+		</div>
+		<div class="col-12 text-center">
+			<div class=" alert alert-info mt-3" [hidden]="joke.hide">
+				{{ joke?.setup }}
+			</div>
+		</div>
+	</div>
+</div>
